@@ -1,0 +1,71 @@
+a{
+    text-decoration: none;
+    color:black;
+}
+h1{
+    font-size:60px;
+    text-align: center;
+    border: 10px groove blue;
+    margin: 10px;
+    text-shadow: 3px 3px 0 gray;
+}
+.nav{
+    display: inline;
+}
+.nav a{
+    color: black;
+    font-size:18px;
+}
+.nav ol{
+    text-align:right;
+    padding: 5px;
+}
+.nav li{
+    display: inline;
+    padding: 15px;
+    
+}
+#menu img{
+    position: relative;
+    float: left;
+    padding-left: 30px;
+}
+#grid #image{
+    
+    border: 5px double blue;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 1010px 1fr;
+    padding-left: 10px;
+}
+#grid #article ul{
+    font-size: 25px;
+    border-top: 1px solid black;
+    margin: 0px;
+}
+#infoGrid{
+    display: grid;
+    height: auto;
+    grid-template-columns: 200px 1fr;
+    border: 1px solid black;
+    margin: 10px;
+}
+#infoGrid a{
+    color: blue;
+    text-decoration: none;
+    font-size: 25px;
+}
+#infoGrid ol{
+    border-right:1px solid black;
+    width:200px;
+    margin: 0px;
+    padding-right: 10px;
+    line-height: 80px;
+}
+#infoGrid #infoarticle{
+    padding-left:67px;
+}
+#infoGrid span{
+    font-size: 50px;
+}
